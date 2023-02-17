@@ -1,0 +1,67 @@
+\section{First Fundamental Theorem of Calculus}
+
+Till now Definite and Indefinite integral are defined
+very differently as below . 
+
+\begin{tabular}{l|l}
+	\toprule
+	Definite Integral &           Indefinite Integral\\
+	\midrule
+	Denoted by :      &                    Denoted by \\
+	$\int^{b}_{a} f(x) \; dx$  & $\int f(x) \; dx$  \\
+
+	defined as :      &                 defined as \\
+
+	\import{./images/}{definite_integral.pdf_tex}
+						      &	Antiderivative i.e Inverse of differentiation    \\
+
+	Calculated by : 
+	Riemann sums      &                            \\
+\end{tabular}
+
+\paragraph{Objectives} 
+
+\begin{enumerate}
+
+    \item Statement of FTC1 and use it to evaluate integrals 
+    \item  use properties of definite integrals such as additivity , symmetry
+    \item use method of substitution to evaluate definite integrals. 
+
+\end{enumerate}
+
+\subsection{ The FTC 1 } 
+
+\begin{definition*}
+    The FTC 1 states that , if $F$ is differentiable and $\dot F = f$ is continous , then 
+    \begin{equation*}
+        \int^{b}_{a} f(x) \; dx = F(b) - F(a) = F(x) \Biggr |_{a}^{b} 
+    \end{equation*}
+\end{definition*}
+
+The FTC1 connects definite integral to Antiderivative . To be consistent with FTC1 
+Riemann sum formula for definite integral doesnot need to be changed . 
+Consequently , the geometric definition of $\int^{b}_{a} f(x) \; dx$ that is 
+consistent with FTC1 is as follows . 
+
+\begin{figure}[H]
+	\centering
+	\def\svgwidth{\columnwidth}
+	\import{./images/}{FTC.pdf_tex}
+\end{figure}
+
+In other words , 
+\begin{definition*}
+    The definite integral of a function is the signed area bounded by curve 
+\end{definition*}
+
+\subsection{Velocity and Speed , Displacement and Distance travelled}
+
+you are travelling between time a and time b with velocity $v(t)$ ,Then 
+the displacement be $x(t)$ is given by 
+\[
+	\int^{b}_{a} v(t) dt = x(b) -x(a)
+\]
+The total distance travelled is given by 
+\[
+	\int^{b}_{a} |{v(t)}| \; dx
+\]

@@ -1,0 +1,154 @@
+\section{The mean value therorem}
+IF $x(t)$ is continuous on $a<=t<=b$ and differentiable on $a<t<b$ THEN
+\[
+	\frac{x(b)-x(a)}{b-a}
+\]
+for some $c$ with $a<c<b$ 
+
+Geometric Interpretation 
+\begin{figure}[H]
+\centering
+\def\svgwidth{\columnwidth}
+\import{./images/}{mean_value_theorem.pdf_tex}
+\end{figure}
+
+\subsection{Least upper and Greatest lower Bounds} 
+if $m$ is lower bound and $M$ is upper bound then,
+\[
+	m<=f(x)<=M
+\]
+
+\subsection{Bounding on average rate of change}
+\[
+	min_{a<=t<=b} \; x^{(1)}(t) <= \frac{x(b)-x(a)}{b-a} <= max_{a<=t<=b}\; x^{(1)}
+\]
+
+\section{Differential and Antiderivative}
+consider a function $y=f(x)$ , Then the differential of y is 
+defined as 
+\[
+	dy = F^{'}(x) \; d(x)
+\]
+This is also called the differential of $F$ and also denoted by $dF$. 
+Rearranging this equation we get leibniz notation for Derivative
+\[
+	F^{'}(x) = \frac{dy}{dx} \; \text{or} \: \frac{dF}{dx}
+\]
+Explanation: 
+$dy$ and $dx$ are known as infinitesimals . The point is that 
+even though $dy$ and $dx$ are infinitely small quantities , Their ratio 
+is NOT . The ratio is the derivative $F^{'}(x)$. $F^{'}(x)$ denotes 
+How much $y$ changes if $x$ changes by tiny tiny bit. The geometric 
+picture of differential is same as that of linear approximation. 
+
+\begin{figure}[H]
+  \centering
+  \def\svgwidth{0.5\columnwidth}
+  \import{./images/}{differential.pdf_tex}
+\end{figure}
+
+Linear approximation at $x$ $\Delta F \approx \dot F(x) \Delta x $
+here $\Delta x$ is finite change in $x$ 
+
+In terms of differential notation in $dF = \dot{F} dx$ 
+here $dx$ denotes tiny tiny .. bit of $x$ i.e infinitesimals of $x$. 
+
+\subsection{Antiderivative} 
+
+\begin{definition*}
+Antiderivative of $f(x)$ is any function $F(x)$ such that 
+    \begin{equation*}
+        \dot{F}(x) = f(x)
+    \end{equation*}
+\end{definition*}
+Indefinite integral of $f(x)$ is denoted by $\int f(x)\: dx$. It is 
+the family of functions. $\int f(x)\; dx = F(x) + C $  where $C$ is 
+constant. 
+
+Note : The constant of integration appears in this definition because 
+derivative of function determines only the shape if function . But derivative does not change if the shape of function is shifted up or down by same
+constant everywhere. 
+
+\subsubsection{Uniqueness of Indefinite Integral}
+The indefinite integral $\int f(x) \; dx = F(x) + C$ is termed indefinite
+since it contains undetermined constant $C$ and it is the family of 
+infinitely many function . But the constant is the only ambiguity of 
+indefinite integral due to Mean value theorem Which guarranties that any
+two Antiderivative of same function only differs by constant. 
+
+\subsubsection{First rules of integration} 
+\begin{tabular}{ll}
+    \toprule 
+    Differentiation rules & Integration rules \\
+    \midrule
+    $\int k f(x) = k \int f(x) dx$ & $d(kf) = k + f$ \\
+    Sum \\
+    $\int (f(x)+g(x)\; dx) = \int f(x) dx + \int g(x) dx$ & $d(F+G) =dF + dG$
+\end{tabular}
+
+The following naive product and quotient do not work . 
+\begin{enumerate}
+
+    \item $\int f * g$ DOES NOT EQUALL $\int f dx * \int g dx$
+	    \item $\int \frac{f}{g}$ DOES NOT EQUALL $\frac{f dx}{g dx)}$
+
+\end{enumerate}
+
+\subsection{Method of Substitution} 
+\paragraph{Hyperbolic Function}
+\begin{enumerate}
+
+  	\item 
+	    \begin{equation*}
+		    cosh(x) = \frac{e^{x}+e^{-x}}{2}
+	    \end{equation*}
+        \item 
+	    \begin{equation*}
+		sinh (x) = \frac{e^{x}-e^{-x}}{2}
+	    \end{equation*}
+	\item 
+		\begin{equation*}
+		    tanh(x) = \frac{sinh(x)}{cosh(x)}
+		\end{equation*}
+	\item 
+		\begin{equation*}
+		    cosh^{2}(x)- sinh^{2}(x) = 1
+		\end{equation*}
+\end{enumerate}
+
+\section{ The Differential Equation} 
+Differential equation involves differential coefficients. 
+\begin{gather}
+    \frac{dy}{dx} = f(x) \; \text{equation} \\
+	y = \int f(x) \; dx \; \text{solution}
+\end{gather}
+ 
+\begin{tabular}{ll}
+    \toprule
+    equation     &    Differential equation \\
+    \midrule
+    $x^{2} -1=0$ & $x = -1 , +1$ $2$ points\\
+    $\frac{dy}{dx}= f(x)$ & $ y  = \int f(x) dx $ family of functions \\
+    \bottomrule
+\end{tabular}
+
+\subsection{Solving by seperation of variable} 
+A differential equation  is seperable if it can be written in form . 
+\begin{equation*}
+    \frac{dy}{dx} = f(x) g(y)
+\end{equation*}
+
+can be solved as follows :  
+
+\begin{gather}
+    \frac{dy}{g(y)} = f(x) \; dx \\
+    \int \frac{1}{g(y)} \; dy = \int f(x) \; dx
+\end{gather}
+
+\subsection{Slope fields}
+Slope field is obtained as follows . At each point (x,y) you draw a short 
+segment whose slope is the value of $\dot y$ at point $(x,y)$. The solution 
+curves must be tangent to slope fields at all points. 
+
+\paragraph{Euler's method} 
+... see 18.03x

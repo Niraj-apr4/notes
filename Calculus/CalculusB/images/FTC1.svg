@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="149.48061mm"
+   height="75.473656mm"
+   viewBox="0 0 149.48061 75.473656"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="FTC1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.99597362"
+     inkscape:cx="373.00185"
+     inkscape:cy="214.36311"
+     inkscape:window-width="1364"
+     inkscape:window-height="750"
+     inkscape:window-x="0"
+     inkscape:window-y="16"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect1414"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect1410"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect908"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect904"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect792"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-12.299375,-10.90663)">
+    <path
+       style="fill:#3683e1;fill-opacity:0.894118;stroke:#000000;stroke-width:0.244"
+       d="M 47.578279,14.791927 C 47.37278,38.410209 47.167283,62.028232 46.961788,85.64599"
+       id="path790"
+       inkscape:path-effect="#path-effect792"
+       inkscape:original-d="M 47.578279,14.791927 C 47.373046,38.410211 47.167549,62.028234 46.961788,85.64599" />
+    <path
+       style="fill:#3683e1;fill-opacity:0.894118;stroke:#000000;stroke-width:0.244"
+       d="m 12.301504,70.363211 c 41.637453,0.726857 83.274638,1.453709 124.911556,2.180556"
+       id="path902"
+       inkscape:path-effect="#path-effect904"
+       inkscape:original-d="m 12.301504,70.363211 c 41.637448,0.727118 83.274633,1.453968 124.911556,2.180556" />
+    <path
+       style="fill:#3683e1;fill-opacity:0;stroke:#000000;stroke-width:0.244"
+       d="M 26.921505,86.330188 C 33.665557,71.355808 40.409666,56.381305 49.464916,57.263504 58.520167,58.145703 69.885845,74.883749 79.804543,78.8808 89.723241,82.877852 98.194602,74.134221 106.66614,65.390407"
+       id="path906"
+       inkscape:path-effect="#path-effect908"
+       inkscape:original-d="M 26.921505,86.330188 C 33.665877,71.355952 40.409984,56.381448 47.153827,41.406683 58.520226,58.145663 69.885903,74.88371 81.251546,91.621828 89.723509,82.878111 98.194869,74.134479 106.66614,65.390407" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.044;stroke-dasharray:none;stroke-opacity:1"
+       x="49.956841"
+       y="15.505095"
+       id="text1180"><tspan
+         sodipodi:role="line"
+         id="tspan1178"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.044;stroke-dasharray:none;stroke-opacity:1"
+         x="49.956841"
+         y="15.505095">$y$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.044;stroke-dasharray:none;stroke-opacity:1"
+       x="138.83508"
+       y="73.002106"
+       id="text1184"><tspan
+         sodipodi:role="line"
+         id="tspan1182"
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.044;stroke-dasharray:none;stroke-opacity:1"
+         x="138.83508"
+         y="73.002106">$x$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.244"
+       x="48.871353"
+       y="66.436218"
+       id="text1238"><tspan
+         sodipodi:role="line"
+         id="tspan1236"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.244"
+         x="48.871353"
+         y="66.436218">+</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.244"
+       x="82.829742"
+       y="74.689072"
+       id="text1242"><tspan
+         sodipodi:role="line"
+         id="tspan1240"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.244"
+         x="82.829742"
+         y="74.689072">_</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.68185px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.0324411;stroke-dasharray:none;stroke-opacity:1"
+       x="53.378269"
+       y="41.306393"
+       id="text1298"
+       transform="scale(0.98362937,1.0166431)"><tspan
+         sodipodi:role="line"
+         id="tspan1296"
+         style="stroke-width:0.0324412"
+         x="53.378269"
+         y="41.306393">$\int_{a}^{b} f(x) dx = </tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.0324412"
+         x="53.378269"
+         y="47.158703"
+         id="tspan1300">Area above x-axis and below $y=f(x)$</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.0324412"
+         x="53.378269"
+         y="53.011017"
+         id="tspan1302">- Area below x-axis and above $y=f(x)$</tspan></text>
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.344;stroke-dasharray:none;stroke-opacity:1"
+       d="m 39.787057,62.47938 c -0.07531,2.771598 -0.150622,5.542942 -0.225922,8.314025"
+       id="path1408"
+       inkscape:path-effect="#path-effect1410"
+       inkscape:original-d="m 39.787057,62.47938 c -0.07504,2.771605 -0.15035,5.542949 -0.225922,8.314025" />
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.344;stroke-dasharray:none;stroke-opacity:1"
+       d="m 91.535283,77.958293 c 0.03487,-2.168852 0.06974,-4.337964 0.104616,-6.507337"
+       id="path1412"
+       inkscape:path-effect="#path-effect1414"
+       inkscape:original-d="m 91.535283,77.958293 c 0.03514,-2.168848 0.07001,-4.33796 0.104616,-6.507337" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.044;stroke-dasharray:none;stroke-opacity:1"
+       x="35.199188"
+       y="76.044769"
+       id="text1418"><tspan
+         sodipodi:role="line"
+         id="tspan1416"
+         style="stroke-width:0.044;stroke-dasharray:none"
+         x="35.199188"
+         y="76.044769">$a$</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.044;stroke-dasharray:none;stroke-opacity:1"
+       x="87.298874"
+       y="70.574875"
+       id="text1422"><tspan
+         sodipodi:role="line"
+         id="tspan1420"
+         style="stroke-width:0.044;stroke-dasharray:none"
+         x="87.298874"
+         y="70.574875">$b$</tspan></text>
+  </g>
+</svg>

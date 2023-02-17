@@ -1,0 +1,67 @@
+\section{The definite integral}
+\begin{itemize}
+
+    \item Denoted by 
+	    \begin{equation*}
+	        \int^{b}_{a} f(x) \; dx
+	    \end{equation*}
+    \item  
+     Geometric definition of Definite integral 
+     \begin{figure}[h]
+	\centering
+	\def\svgwidth{0.7\columnwidth}
+	\import{./images/}{definite_integral.pdf_tex}
+     \end{figure}
+     Area of the region above the $x$ axis and below the curve $y = f(x)$
+     between two vertical lines $x=a$ and $x=b$ . $a$ and $b$ are 
+     upper and lower bound respectively. 
+\end{itemize}
+Summation Notation
+\begin{equation*}
+    \sum_{i=1}^{a} = a_{1} + a_{2} + .... + a_{n}
+\end{equation*}
+
+\subsection{Riemann Sums}
+
+steps to evaluate $\int^{b}_{a} f(x) \; dx$ using Riemann sums 
+
+\begin{enumerate}
+
+    \item Devide $[a,b]$ into $n$ equal sub intervals 
+    \begin{figure}[H]
+        \centering
+	\def\svgwidth{0.5\columnwidth}
+	\import{./images/}{riemann1.pdf_tex}
+    \end{figure}
+    \item choose a point $c_{i}$ with in the $i^{th}$ subinterval 
+	 and choose $f(c_{i})$ be the height of the $i^{th}$ rectangle. 
+    \begin{figure}[H]
+        \centering
+	\def\svgwidth{0.5\columnwidth}
+	\import{./images/}{riemann2.pdf_tex}
+    \end{figure}
+    \item Add up the areas of the $n$ rectangles. the  total areas 
+      of n rectangles is 
+      \begin{equation*}
+	      f(c_{1}) \Delta x + f(c_{2}) \Delta x + .....
+	      + f(c_{n}) \Delta x = \sum_{i=1}^{n}f(c_{i}) \Delta x
+      \end{equation*}
+      \item Take the limit as the rectangles becomes infintesimally thin
+	      ($\Delta x \to 0$ or equivalent $n \to \infty$) . The limit
+	is actual area under curve between $a$ and $b$ 
+	\begin{equation*}
+	    \lim_{n \to \infty} \sum_{i= 1}^{n} f(c_{i}) \Delta x
+	    = \int^{b}_{a} f(x) dx
+	\end{equation*}
+\end{enumerate}
+note : if we pick $c_{i}$ to be left end point then the Riemann sum 
+is left Riemann sum , if $c_{i}$ is right end point then Riemann sum is Tight Riemann sum.
+
+However in the limit $n\to \infty$ (so that $\Delta x \to 0$) , The 
+distinction between these two sums is not longer needed , The limit 
+of any Riemann sum , no matter what $c_{i}$ with in subintervals are is 
+equal to exact area under curve. 
+    
+\subsection{Cummulative Sums}
+For instance if $x$ represent time (hr) and f(x) denotes velocity 
+(km/hr). thus the $\int^{b}_{a} dx$ represent distance (km).
