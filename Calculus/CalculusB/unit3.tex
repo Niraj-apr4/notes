@@ -85,7 +85,44 @@ The total distance travelled is given by
 		\begin{equation*}
 		    \int^{a}_{a} f(x) \; dx = 0
 		\end{equation*}
+	
 
+	\item 	if $f(x) \le g(x)$ and $a \le b$ then 
+  \[
+	\int_{a}^{b} f(x) \; dx \le \int_{a}^{b} g(x) \; dx \text{for} a \le b
+  \]
 \end{enumerate}
 
-\subsection{Estimation}
+\subsection{Change of Variable for definite integral(Method of substitution)}
+  \[
+	\int_{u_{1}}^{u_{2}} g(u) \; du = \int_{x_{1}}^{x_{2}} g(u(x)) \; \dot{u}(x) \; dx 
+  \]
+  where
+  \begin{align*}
+	  u &= u(x) \\
+	  u_{1} &= u(x_{1}) \\
+	  u2 &= u(x^{2}) \\
+  \end{align*}
+
+CAUTION : Only works if $\dot{u}$ does not change sign 
+
+Example 
+\begin{align*}
+    &\int_{-1}^{1} x^{2} \; dx \neq 0 \\
+	u =& x^{2} \; \implies du = 2x \; dx \implies dx = \frac{1}{2\sqrt{u}} \; du \\
+	   &= \int_{1}^{1} u \frac{1}{2\sqrt{u}} \; du \\
+	   &\text{thus} \int_{-1}^{1} x^{2} \; dx \neq \int_{1}^{1} \frac{u}{2\sqrt{u}} \; du\\
+\end{align*}
+ Reason : $\dot{u}$ changes sign , $\dot{u} = 2x > 0 \quad \text{for}\quad x>0 \quad \text{and} \quad  < 0 \quad \text{for}\quad x < 0 $
+
+ To correctly use substitution this way 
+  \[
+	\int_{-1}^{1} x^{2} \; dx 
+  \]
+substitution $u = x^{2}$  , observe that $u = x^{2}$ don't have well defined inverse 
+\begin{figure}[H]
+	\centering
+	\def\svgwidth{\columnwidth}
+	\import{./images/}{subs_caveat.pdf_tex}
+\end{figure}
+
