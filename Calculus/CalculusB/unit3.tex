@@ -125,4 +125,39 @@ substitution $u = x^{2}$  , observe that $u = x^{2}$ don't have well defined inv
 	\def\svgwidth{\columnwidth}
 	\import{./images/}{subs_caveat.pdf_tex}
 \end{figure}
+   \[
+	   x = 
+	\begin{cases}
+	   + \sqrt{u} \text{if} x \ge 0 \\
+	   - \sqrt{u} \text{if} x \le 0
+	\end{cases}	
+   \]
+      \[
+   	\int_{-1}^{1} x^{2} \; dx = \int_{-1}^{0} x^{2} \; dx + \int_{0}^{1} x^{2} \; dx
+      \]
+      here $\dot{u}(x)$ do not change sign in anywhere in interval $[-1, 0]$ 
+      and similarly for $[0,1]$ 
+
+      Now substitution can  be used on the following pair of integrals seperately 
+      as above applicable cases  
+
+\subsection{Comparing FTC1 and MVT} 
+if $f(x)$ is differentiable and $f^{-1}(x)$ is continous and $[a,b]$ and let
+\begin{align*}
+	\Delta{f} &= f(b) - f(a) \\
+	\Delta{x} &= b-a 
+\end{align*}
+Then MVT states that , 
+   \[
+	\frac{\Delta{f}}{\Delta(x)} = f(c)
+   \]
+   for some $c$ where $a<c<b$ 
+
+   on the other hand FTC1 gives 
+      \[
+   	\frac{\Delta{f}}{\Delta{x}} = \frac{1}{b-a} \int_{a}^{b} F(x) \; dx
+      \]
+      FTC1 gives specific value of $\frac{\Delta{f}}{\Delta{x}}$ (The 
+      average rate of change of $f$ over $[a,b]$) But MVT doesnot 
+      since it doesnot tell us where $c$ is 
 

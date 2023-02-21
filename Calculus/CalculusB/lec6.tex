@@ -1,0 +1,144 @@
+\section{Second Fundamental Theorem of Calculus (FTC2)} 
+
+\subsection{FTC2}
+FTC2:
+
+Given a continuous function $f(x)$ IF 
+   \[
+	G(x) = \int_{a}^{x} f(t) \; dt 
+   \]
+   Where $t$ is dummy variable and varies between $a$ and $x$ 
+
+   THEN,
+
+      \[
+   	\dot{G}(x) = f(x)
+      \]
+      Geometrically , 
+\begin{figure}[H]
+	\centering
+	\def\svgwidth{0.7\columnwidth}
+	\import{./images/}{FTC2.pdf_tex}
+\end{figure}
+$G(x)$ varies as $x$ varies , $G(x)$ is a function itself and gives 
+area between $y =  f(t)$ and $t$ axis and between lines $t=a$ and $t=x$
+
+In terms of differential equation , 
+FTC2 says that $G(x)$ is a solution to 
+   \begin{align*}
+	\dot{y} = f \; \text{differential equation} \\
+	y(a) = 0 \; \text{initial equation} 
+   \end{align*}
+   $y(a)= 0 $ follows from 
+      \[
+   	G(a) = \int_{a}^{a} f(t) \; dt = 0
+      \]
+The integrand $f(x)$ can be any continous function and Not  the just the 
+ones whose antiderivative we know how to find. These integral formula are still usefull ,
+There are numerical methods that allows us to compute them
+
+\subsection{FTC2 and Chain Rule}
+for any continous function $f$ and differential function $u(x)$ 
+\begin{align*}
+    &\frac{d}{dx} \int_{a}^{u(x)} f(t) \; dt = f(u(x)) \times \dot{u}(x) \\
+    =& \frac{d}{d(u(x))} \int_{a}^{u(x)} f(t) \; dt \times \frac{d(u(x))}{d(x)}\\
+    =& f(u(x)) \times \dot{u}(x)
+\end{align*}
+
+\subsection{The two fundamental Theorem of Calculus}
+\begin{tabular}{l|l}
+	\toprule
+	FTC 1 & FTC2 \\
+	\midrule
+	Given a differential function F with continuous derivative $\dot{F}$ &               Given a continuous function $f$ \\
+	$\int_{z}^{x} \dot{F} \; dt = F(x) - F(x)$                           & $\frac{d}{dx} \int_{z}^{x} f(t) \; dt = f(x)$\\
+	\bottomrule
+\end{tabular}
+
+The two fundamental theorem together say that differentiation and integration
+(from $a$ to $x$)  are inverse operation of one another up 
+to a constant. 
+
+\subsection{Constructing Function using Integral}
+Recall that, FTC2 gives the integral formula 
+   \[
+	G(x) = \int_{a}^{x} f(t) \; dt
+   \]
+   as solution to following IVP
+      \[
+   	\dot{y} = f \; y(a) = 0
+      \]
+Depending on what differential equation is $G(x)$ can be a function we 
+already know or the one that cannot be expressed (without and integral) 
+in terms of any function we already know . 
+
+Ex,The logarithmic function is defined using integral 
+\begin{enumerate}
+
+    \item 
+   \[
+	L(x) = \int_{1}^{x} \frac{dt}{t} = ln(x)
+   \]
+   \item  The integral of $e^{-t^{2}}$ is called the bell curve . it is a function 
+	defined by integral and cannot be expressed in  terms of function we 
+	already know. 
+	   \[
+		F(x) = \int_{0}^{x} e^{-t^{2}} 
+	   \]
+\end{enumerate}
+\paragraph{Definition of Logarithm and exponential  function}
+exponential function $E(y)$ is solution to following Initial Value problem .
+   \[
+	\dot{E}(y) = E(y) \; E(0) = 1
+   \]
+   We then let $e = E(1)$ and we denote $E(y)$ by $e^{y}$
+
+   Logarithmic function : Inverse of exponential function $E^{-1}(x)$, denoted by $ln(x)$
+   i.e 
+      \[
+   	E^{-1}(x) = ln(x)
+      \]
+\subsection{The integration of bell curve }
+
+bell curve is the graph of $e^{-t^{2}}$ 
+   \[
+	F(x)  = \int_{0}^{x} =  e^{-t^{2}} \; dt
+   \]
+   Geometrically $F(x)$ denote the following shaded Region. 
+\begin{figure}[H]
+	\centering
+	\def\svgwidth{0.5\columnwidth}
+	\import{./images/}{bellcurve.pdf_tex}
+\end{figure}
+
+using First and Second derivative of $F$ we sketch the graph of $F$ as 
+shown below 
+
+\begin{figure}[H]
+	\centering
+	\def\svgwidth{0.5\columnwidth}
+	\import{./images/}{area_bell_curve.pdf_tex}
+\end{figure}
+Two properties of $F$
+\begin{enumerate}
+
+    \item $F$ is odd $F(-x) = - F(x) $
+	\item $\lim_{x \to \infty} F(x) = \frac{\sqrt{\pi}}{2}$ and $\lim_{x \to \infty} F(x) = - \frac{\sqrt{\pi}}{2}$
+
+\end{enumerate}
+Geometrically, $\lim_{x \to  \infty}  F(x)$  is the area of shaded infinite sketch. 
+\begin{figure}[H]
+	\centering
+	\def\svgwidth{0.5\columnwidth}
+	\import{./images/}{bellcurve1.pdf_tex}
+\end{figure}
+
+\subsection{ The error Function}
+The error function denoted by $erf(x)$ is renormalized version of $F(x) = \int_{0}^{x} e^{-t^{2}} \; dt$ 
+that has horizental asymptotes at $y \pm 1$ 
+   \[
+	erf(x) = \frac{2}{\sqrt{pi}} F(x) = \frac{2}{\sqrt{pi}} \int_{0}^{x} e^{-t^{2}} \; dt
+   \]
+   \subsubsection{More new function} 
+   TODO	 from Bookmarked
+
