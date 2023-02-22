@@ -106,5 +106,71 @@ Axioms :
         \item Non negativity $P(A) \ge 0$
 	\item Normalization $P(\Omega) = 1$ 
 	\item Finite additivity 
+		
+		if $A \cap B = \phi$ then $P(A \cup B) = P(A) + P(B)$
+		\begin{figure}[H]
+			\centering
+			\def\svgwidth{0.3\columnwidth}
+			\import{./images/}{finite_additivity.pdf_tex}
+		\end{figure}
+
+		Explanation
+
+		Think of $1$ pound of substance is smeared over entire 
+		sample space $\Omega$ . Then amount of substance smeared
+		over $A$  + amount of substance smeared over $B$ = 
+		amount of substance smeared over $A \cup B$
 
     \end{enumerate}
+    \textcolor{blue}{The above 3 axioms are sufficient to check 
+    when deciding whether a mathematical model is Probabilistic }
+
+\subsection{Properties of Probability}
+following properties of Probability are consequence of above 
+3 axioms. 
+\begin{enumerate}
+
+    \item $P(A) \le 1$ 
+    \item $P(\Phi) = 0$
+    \item $P(\{s_{1},s_{2}, ....... ,s_{k}\}) = P(\{s_{1}\}) + P(\{s_{2}\}) + ........... + P(\{s_{k}\})$
+    \item if $A \subset B$ then $P(A) \le P(B)$
+    \item for $A$ and $B$ not necessarily disjoint
+	    $p(A \cup B) = P(A) + P(B) - P(A \cap B)$
+    \item union bound $P(A \cup B) \le P(A) + P(B)$
+
+\end{enumerate}
+
+\subsection{Probability Calculation}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\linewidth,page = 12]{../instructor/lectureslides01.pdf}
+  \caption{probability calculation :Discrete}
+  \label{fig:Probability calculation : Discrete}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\linewidth,page = 13]{../instructor/lectureslides01.pdf}
+  \caption{probability calculation :Discrete}
+  \label{fig:Discrete probabiliy law calculation : Discrete}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\linewidth,page = 14]{../instructor/lectureslides01.pdf}
+  \caption{probability calculation :Continuous}
+  \label{fig:Probability calculation : Discrete}
+\end{figure}
+
+Probability Calculation Steps : 
+\begin{enumerate}
+
+    \item Specify Sample Space
+    \item Specify Probability Law TODO
+    \item Identify the event of interest TODO
+    \item Calculate ...
+
+\end{enumerate}
+
+\subsection{Countable additivity}
+
