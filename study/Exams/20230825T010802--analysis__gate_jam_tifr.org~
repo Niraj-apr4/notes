@@ -1,0 +1,84 @@
+#+title:      Analysis
+#+date:       [2023-08-25 Fri 01:08]
+#+filetags:   :gate:jam:tifr:
+#+identifier: 20230825T010802
+
+* Complete Analysis on Exams , syllabus and Scheduling
+
+** GATE : DA 
+Here is  the link to syllabus [[denote:20230825T012235][Ds and ai]]
+
+Below is the copy of syllabus that is selected to prepare  for : 
++ Probability and Statistics
++ Linear Algebra
++ Calculus and Optimization
++ Programming Data Structure and Algorithm
++ Machine Learning
++ AI
++ [ ] Marks that covers this syllabus
++ [ ] cutoff marks 
+
+** Tifr : System Science test 
+Here is the link to syllabus [[denote:20230825T012330][System science]]
+
+Below is the copy of syllabus that is selected to prepare  for : 
+
+1. Introduction to Probability Theory and Statistics
+2. Linear Algebra
+3. Elementry Numerical Analysis
+4. Basic Optimization Theory and Algorithms
+5. Complex Analysis
+6. [ ] Marks that this syllabus covers: 
+7. [ ] cutoff marks: 
+      
+
+** IIT JAM : Mathematics test 
+Here is the link to syllabus [[denote:20230825T012307][Mathematics]]
+
+Below is the copy of syllabus that is selected to prepare  for 
+
++ Multivariable Calculus and Differential Equations :
+  1. Function of Two or Three Real Variables : limit continuity
+     partial derivatives ,total derivative, maxima and minima
+
+  2. Integral Calculus : double and triple integrals , change of order
+     of integration , calculating surface areas and volumes using
+     double integrals , calculating volumes using triple integrals
+
+  3. Differential Equations : Bernoulli's equation , exact
+     differential equation , integrating factors , orthogonal
+     trajectories , homogenous differential equations , method of
+     separation of variables , linear differential equations of second
+     order with constant coefficients , method of variation of
+     parameters , Cauchy-Euler equation. 
+
++ Linear Algebra and Algebra
+  1. Matrices : system of linear equations ,rank, nulility ,
+     rank-nulility theroem ,inverse, determinant , eigenvalues ,
+     eigenvectors
+
+  2. Finite Dimensional Vector Spaces : linear independence of vectors
+     , basis, dimension , matirx representation, range space , null
+     space rank-nulility theorem. 
+     
++ [ ] Marks that this syllabus covers :
+
++ [X] Cutoff Marks :
+
+
+* Combined Syllabus 
+
+| Sn. | Subject                                  | GATE : DA | Tifr :  System Science | IIT JAM : MA | Superset            |
+|-----+------------------------------------------+-----------+------------------------+--------------+---------------------|
+|   1 | Calculus I                               | YES       |                        | NOT sure     | GATE                |
+|   2 | Calculus II                              |           |                        | YES          | IIT JAM             |
+|   3 | Probability and Statistics               | YES       | YES                    |              | GATE                |
+|   4 | Linear Algebra                           | YES       | YES                    | YES          | GATE,IIT JAM        |
+|   5 | Differential Equation                    |           |                        | YES          | IIT JAM             |
+|   6 | Programming Data Structure and Algorithm | YES       |                        |              | GATE                |
+|   7 | Machine Learning                         | YES       |                        |              | GATE                |
+|   8 | AI                                       | YES       |                        |              | GATE                |
+|   9 | Elementry Numerical Analysis             |           | YES                    |              | TIFR System Science |
+|  10 | Basic Optimization theory and algorithm  |           | YES                    |              | TIFR System Science |
+|  11 | Complex Analysis                         |           | YES                    |              | TIFR System Science |
+|-----+------------------------------------------+-----------+------------------------+--------------+---------------------|

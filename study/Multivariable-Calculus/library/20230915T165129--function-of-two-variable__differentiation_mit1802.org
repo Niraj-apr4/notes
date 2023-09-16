@@ -1,0 +1,11 @@
+#+title:      Function of two variable
+#+date:       [2023-09-15 Fri 16:51]
+#+filetags:   :differentiation:mit1802:
+#+identifier: 20230915T165129
+
+* Lecture 1 Level curve and partial derivatives
+
+links to summary : 
+[[denote:20230914T223615][Lec1 level curves and partial derivatives]]
+
+* Lecture 2 Linear Approximations and Tangent planes 

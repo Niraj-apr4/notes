@@ -1,0 +1,25 @@
+#+title:      Complete Summary 
+#+date:       [2023-08-25 Fri 11:40]
+#+filetags:   :differentiation:mit1801:
+#+identifier: 20230825T114029
+
+* UNIT 0 Limits 
+1. Introduction to Limits : link to summary [[denote:20230825T110746][Introduction to limits]]   
+2. Continuity :link to summary  [[denote:20230825T110917][Continuity]] 
+3. Limits of Quotients : link to summary [[denote:20230825T111009][Limits of quotients]]
+
+* UNIT 4 Applications
+1. Graphing and critical points : first and second derivative test 
+   link to summary : [[denote:20230825T002501][Graphing and critical points]]
+2. The Big Picture : Limits and Asymptotics
+   link to summary [[denote:20230825T002501][Limits and asymptotics]]
+3. Optimization : Min max problem
+   link to summary [[denote:20230825T110202][Optimization]]
+4. Related Rates
+   link to summary [[denote:20230825T110203][Related rates]]
+   
+   [[denote:20230825T002501][Graphing and critical points]]
+
+
+  
+

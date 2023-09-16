@@ -1,0 +1,16 @@
+#+title:      Git
+#+date:       [2023-07-25 Tue 00:02]
+#+filetags:   :computerprogram:
+#+identifier: 20230725T000220
+
+#+startup: indent
+#+title: GIT : distrubuted version control system
+#+author: Niraj Kr Singh
+
+
+[[https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent][adding ssh key]]
+
+issues update rejected because ..
+
+git push -f origin master
+

@@ -1,0 +1,26 @@
+#+title:      computer setup
+#+date:       [2023-07-24 Mon 14:49]
+#+filetags:   :setup:
+#+identifier: 20230724T144905
+
+* Arch Linux 
+** Installation Procedure 
+
+* FONTS
+** Installation 
+   refrence  : manual Installation of [[https://wiki.archlinux.org/title/fonts][Archwiki webpage]]
+   1. Download fonts and unzip it 
+   2. copy the .ttf file to [[~/.local/share/fonts]]
+   3. update the font config by fc-cache
+
+** Installed fonts (keep minimal)
+   - Already included in Installation
+   - Adobe Source Code pro
+   - Inconsolata [[https://levien.com/type/myfonts/inconsolata.html][link to web page]] 
+
+* GIT
+* ORG Mode 
+* ZSH
+* Julia 
+* ST Terminal 
+* Emacs 

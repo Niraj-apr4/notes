@@ -1,0 +1,21 @@
+#+title:      Simple-terminal
+#+date:       [2023-07-23 Sun 20:45]
+#+filetags:   :computerprogram:
+#+identifier: 20230723T204547
+
+#+title: Simple Terminal
+
+* TODO  Installation Procedure 
+    - Clone repository by 
+	git clone https://git.suckless.org/st
+
+    - Download patch from [[https://st.suckless.org/patches/][website]]
+
+* TODO Apply Patch
+
+** Currently Applied patches are
+  - Alpha
+  - Scrollback 
+  - Scrollback-mouse
+  - Ligatures-alpha-scrollback
+  - Groovebux 

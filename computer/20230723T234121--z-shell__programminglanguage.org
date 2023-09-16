@@ -1,0 +1,31 @@
+#+title:      Z-shell
+#+date:       [2023-07-23 Sun 20:46]
+#+filetags:   :programminglanguage:
+#+identifier: 20230723T204610
+
+*Task Manager*
+- find zsh tutorials 
+- Learn basic works 
+- Adding Path variable 
+
+{https://zsh.sourceforge.io/}[website]
+
+* Tutorials and Refrences 
+
+  User Guide : {https://zsh.sourceforge.io/Guide/zshguide.html}[web version]
+
+* Some basic works 
+
+** Adding path 
+   Link to User Guide for adding Path : {https://zsh.sourceforge.io/Guide/zshguide02.html#l24}[web version]
+   Stack overflow answer : {https://stackoverflow.com/questions/11530090/adding-a-new-entry-to-the-path-variable-in-zsh}[link]
+   - Example : To add "home/niraj/julia/bin" to path variable. include the following 
+   in your {/ ~/.zshenv} file  
+   @code bash
+   # append
+   path+=('home/niraj/julia/bin')
+   # or prepend
+   path=('home/niraj/julia/bin' $path)
+   # export to sub-processes (make it inherited by child processes)
+   export PATH
+   @end
