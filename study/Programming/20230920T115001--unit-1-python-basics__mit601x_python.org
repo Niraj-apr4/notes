@@ -1,0 +1,6 @@
+#+title:      Unit 1 Python Basics
+#+date:       [2023-09-20 Wed 11:50]
+#+filetags:   :mit601x:python:
+#+identifier: 20230920T115001
+
+Link to slides [[denote:20160801T154508][Unit 1 python basics]]

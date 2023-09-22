@@ -1,0 +1,6 @@
+#+title:      Lecture 4 Counting 
+#+date:       [2023-09-16 Sat 15:36]
+#+filetags:   :mit6431x:
+#+identifier: 20230916T153647
+
+[[denote:20230825T002714][Lectureslides l04]]

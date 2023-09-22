@@ -1,0 +1,7 @@
+#+title:      Lecture 5 Probability mass function and expectation
+#+date:       [2023-09-16 Sat 15:31]
+#+filetags:   :mit6431x:
+#+identifier: 20230916T153158
+
+* Link to Annotated  Slides  
+[[denote:20230825T002715][Lectureslides l05]]

@@ -1,0 +1,6 @@
+#+title:      Lecture 7 Conditioning on a random variable independence of r.v's 
+#+date:       [2023-09-16 Sat 15:45]
+#+filetags:   :mit6431x:
+#+identifier: 20230916T154545
+
+here is the link to annotated slides : [[denote:20230825T002717][Lectureslides l07]]

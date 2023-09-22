@@ -1,0 +1,17 @@
+#+title:      unit3 optimization
+#+date:       [2023-09-22 Fri 11:10]
+#+filetags:   :differentiation:mit1802:
+#+identifier: 20230922T111045
+
+* Lecture 8 : Critical Points  
+link to summary : [[denote:20230922T110635][Lec8 critical points]]
+
+* Lecture 9 : Second Derivative Tests
+Any general complex functions can be approximated by quadratic
+function nearby . Now that quadratic function (which is an
+aproximation of orginal complex function) can be analyzed easily using
+second derivative test. 
+summary : [[denote:20230922T110657][Lec9 second derivative test]]
+
+* Lecture 10 : Constrained Optimization 
+link to summary : [[denote:20230922T110721][Lec10 constrained optimization]]

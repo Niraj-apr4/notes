@@ -8,7 +8,7 @@
 #+author: Niraj Kr Singh
 
 
-
+Resource links [[https://git-scm.com/doc/ext][links]]
 git tutorial link : [[https://git-scm.com/docs/gittutorial][link]]
 
 [[https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent][adding ssh key]]

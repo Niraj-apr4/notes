@@ -1,4 +1,4 @@
-#+title:      unit1 function of two variables 
+#+title:      Unit1 Function of two variables
 #+date:       [2023-09-15 Fri 17:14]
 #+filetags:   :differentiation:mit1802:
 #+identifier: 20230915T171424
@@ -28,7 +28,5 @@ increase \( y \) by small amount
 * Lecture 2 : Linear Approximation and Tangent Planes
 Read Summary [[denote:20230915T163508][Lec2 linear approx and tangent planes]]
 
-\begin{equation}
-\label{eq:1}
-\frac{{ \int_{-\infty}^{a} + \sum_{i}^{i + 1 } }}{\int_{-\infty}^{\infty}} 
-\end{equation}
+* Lecture 3 : Visualizing surface in three dimension
+Read summary : [[denote:20230918T223454][Lec3 visualizing surface in 3d]]

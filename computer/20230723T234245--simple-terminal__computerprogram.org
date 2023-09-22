@@ -5,17 +5,10 @@
 
 #+title: Simple Terminal
 
-* TODO  Installation Procedure 
+* Installation Procedure 
     - Clone repository by 
 	git clone https://git.suckless.org/st
 
     - Download patch from [[https://st.suckless.org/patches/][website]]
 
-* TODO Apply Patch
 
-** Currently Applied patches are
-  - Alpha
-  - Scrollback 
-  - Scrollback-mouse
-  - Ligatures-alpha-scrollback
-  - Groovebux 

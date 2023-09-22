@@ -1,0 +1,6 @@
+#+title:      Lecture 6 Variance Conditioning on event Multiple r.v's
+#+date:       [2023-09-16 Sat 15:43]
+#+filetags:   :mit6431x:
+#+identifier: 20230916T154303
+
+here is link to annotate slides [[denote:20230825T002716][Lectureslides l06]]

@@ -1,0 +1,11 @@
+#+title:      Unit 4 Discrete random variable 
+#+date:       [2023-09-16 Sat 15:41]
+#+filetags:   :mit6431x:
+#+identifier: 20230916T154138
+
+* Probability Mass Function and Expectations
+[[denote:20230916T153158][Lecture 5 Probability mass function and expectation]]
+* Variance Conditoning on an event ; Multiple r.v's
+[[denote:20230916T154303][Lecture 6 Variance Conditioning on event Multiple r.v's]]
+* Conditoning on a random variablle ; independence of r.v's
+[[denote:20230916T154545][Lecture 7 Conditioning on a random variable independence of r.v's]]
