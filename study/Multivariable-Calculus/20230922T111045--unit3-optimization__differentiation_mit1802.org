@@ -15,3 +15,9 @@ summary : [[denote:20230922T110657][Lec9 second derivative test]]
 
 * Lecture 10 : Constrained Optimization 
 link to summary : [[denote:20230922T110721][Lec10 constrained optimization]]
+
+* Lecture 11 : Lagrange Multiplier
+link to summary : [[denote:20230923T234523][Lec11 lagrange multiplier]]
+
+* Lecture 12 : Least Square approximations
+link to summary : [[denote:20230924T001431][Lec12 least squares approximations]]

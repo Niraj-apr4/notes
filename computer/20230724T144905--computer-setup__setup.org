@@ -25,3 +25,5 @@
 * ST Terminal 
 * Emacs 
 * Backup System 
+*
+[[https://wiki.archlinux.org/title/LightDM][arch wiki lightDM]]
