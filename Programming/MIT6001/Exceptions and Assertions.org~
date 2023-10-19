@@ -1,0 +1,62 @@
+
+* Exceptions 
++ SyntaxError :: Python cant parse program
++ NameError :: Local or global name not found
++ AttributeError :: Attribute refrence fails
++ Type Error :: Operator doesnot have the correct type
++ IOError :: IO system report malfunction
+  
+   
+* What to do with the Exception
++ *Stop* Execution , signal error conditon
++ in python *Raise an exception*
+  /raise Exception ("descriptive String")/
+
+* Dealing with Exceptions
+1. try except block
+#+begin_src python
+  try:
+     # <statements>
+     # <statements>
+     # <statements>
+  except :
+     # excuted when try block raise any kind of exceptions
+     # <statements>
+  #executed when try else block finishes of executions
+  #<statements>
+  #<statements>
+  #<statements>
+#+end_src
+
+2. use seperate clauses to deal with particular type of exceptions
+   #+begin_src python :results output
+     try:
+	 # <statements>
+	 # <statements>
+	 print('1'/0)
+     except ValueError :
+	 # executed if try block has Value error
+	 # <statements>
+	 # <statements>
+	 print("try block has value error")
+     except ZeroDivisionError :
+	 # executed if try block has zeroDivisionError
+	 # <statements>
+	 # <statements>
+	 # <statements>
+	 print("cannot devide by zero")
+     except :
+	 # executed if try block has error other
+	 # than ValueErro and ZeroDivisionError
+	 # <statements>
+	 # <statements>
+	print("all other kind of error ")
+     # executed when try-except block has finished executing
+     #<statements>
+     #<statements>
+     print("outside try except block")
+   #+end_src
+
+   #+RESULTS:
+   : all other kind of error 
+   : outside try except block

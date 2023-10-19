@@ -1,0 +1,57 @@
++title:      Dictionaries
+#+date:       [2023-10-12 Thu 23:51]
+#+filetags:   :python:
+#+identifier: 20231012T235152
+
+[[denote:20160802T181848][Lec 6 dictionaries]]
+
+1. nice to index item of interest directly
+2. nice  to use *one data structure* , no  seperate lists
+         A list                            A dictionary
+  |-------+---------+---+-----------------------+---------|
+  |     0 | Elem 1  |   | key 1                 | val 1   |
+  |     1 | Elem 2  |   | key 2                 | val 2   |
+  |     2 | Elem 3  |   | key 3                 | val 3   |
+  |     3 | Elem 4  |   | key 4                 | val 4   |
+  |    .. | ...     |   | ...                   | ...     |
+  | index | element |   | custom index by label | element |
+  |-------+---------+---+-----------------------+---------|
+
+3. store pair of  data , key and value 
+   + key
+   + value
+
+#+begin_src python :results output
+  grades = {'Ana':'B', 'john':'A+', 'Denise':'A+'} #dictionary
+
+  print(grades['john']) # dictionary lookup
+
+  grades['sylvan'] = 'A' #add entry
+  print(grades)
+
+  'john' in grades # test if  key in dictionary 
+
+  del(grades['Ana']) #delete entry 
+  grades.keys() # get iterable that  act like tuple of  all keys
+  grades.values() # get an iterable that act  like tuple of  all values
+#+end_src
+
+#+RESULTS:
+: A+
+: {'Ana': 'B', 'john': 'A+', 'Denise': 'A+', 'sylvan': 'A'}
+
+* Dictionary keys and values
+   |----------------------------------+-----------------------------------------------------------|
+   | Values                           | keys                                                      |
+   |----------------------------------+-----------------------------------------------------------|
+   | any type (mutable and immutable) | must be unique                                            |
+   | can be duplicates                | immutable  type(int float string tuple boolean)           |
+   |----------------------------------+-----------------------------------------------------------|
+   | can be even other dictionaries   | actually need an object that  is hashable ,all immutables |
+   |                                  | are hashable                                              |
+   |----------------------------------+-----------------------------------------------------------|
+   |                                  | Carefull  with float  type  as key                        |
+   | no order to values               | no order to keys or values                                |
+   |----------------------------------+-----------------------------------------------------------|
+#+CAPTION: hello
+[[./img/drawing.svg]]

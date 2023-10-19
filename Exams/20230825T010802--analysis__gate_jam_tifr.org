@@ -68,17 +68,22 @@ Below is the copy of syllabus that is selected to prepare  for
 
 * Combined Syllabus 
 
-| Sn. | Subject                                  | GATE : DA | Tifr :  System Science | IIT JAM : MA | Superset            |
-|-----+------------------------------------------+-----------+------------------------+--------------+---------------------|
-|   1 | Calculus I                               | YES       |                        | NOT sure     | GATE                |
-|   2 | Calculus II                              |           |                        | YES          | IIT JAM             |
-|   3 | Probability and Statistics               | YES       | YES                    |              | GATE                |
-|   4 | Linear Algebra                           | YES       | YES                    | YES          | GATE,IIT JAM        |
-|   5 | Differential Equation                    |           |                        | YES          | IIT JAM             |
-|   6 | Programming Data Structure and Algorithm | YES       |                        |              | GATE                |
-|   7 | Machine Learning                         | YES       |                        |              | GATE                |
-|   8 | AI                                       | YES       |                        |              | GATE                |
-|   9 | Elementry Numerical Analysis             |           | YES                    |              | TIFR System Science |
-|  10 | Basic Optimization theory and algorithm  |           | YES                    |              | TIFR System Science |
-|  11 | Complex Analysis                         |           | YES                    |              | TIFR System Science |
-|-----+------------------------------------------+-----------+------------------------+--------------+---------------------|
+| Sn. | Subject                                  | GATE : DA | Tifr :  System Science | IIT JAM : MA | Superset     |
+|-----+------------------------------------------+-----------+------------------------+--------------+--------------|
+|   1 | Calculus I                               | YES       |                        | NOT sure     | GATE         |
+|   2 | Calculus II                              |           |                        | YES          | IIT JAM      |
+|   3 | Probability and Statistics               | YES       | YES                    |              | GATE         |
+|   4 | Linear Algebra                           | YES       | YES                    | YES          | GATE,IIT JAM |
+|   5 | Differential Equation                    |           |                        | YES          | IIT JAM      |
+|   6 | Programming Data Structure and Algorithm | YES       |                        |              | GATE         |
+|   7 | Machine Learning                         | YES       |                        |              | GATE         |
+|   8 | AI                                       | YES       |                        |              | GATE         |
+|-----+------------------------------------------+-----------+------------------------+--------------+--------------|
+|     |                                          |           |                        |              |              |
+|     |                                          |           |                        |              |              |
+
+
+* kdkfjdf
+** kdjljf
+*** kkdf
+**** ldjjfkj

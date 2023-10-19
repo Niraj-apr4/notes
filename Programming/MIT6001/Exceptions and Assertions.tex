@@ -1,0 +1,96 @@
+% Created 2023-10-18 Wed 23:14
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 29.1 (Org mode 9.6.6)}, 
+ pdflang={English}}
+\begin{document}
+
+\tableofcontents
+
+\section{Exceptions}
+\label{sec:orge9612c4}
+\begin{description}
+\item[{SyntaxError}] Python cant parse program
+\item[{NameError}] Local or global name not found
+\item[{AttributeError}] Attribute refrence fails
+\item[{Type Error}] Operator doesnot have the correct type
+\item[{IOError}] IO system report malfunction
+\end{description}
+
+
+\section{What to do with the Exception}
+\label{sec:orge6cc42c}
+\begin{itemize}
+\item \textbf{Stop} Execution , signal error conditon
+\item in python \textbf{Raise an exception}
+\emph{raise Exception ("descriptive String")}
+\end{itemize}
+
+\section{Dealing with Exceptions}
+\label{sec:org777571c}
+\begin{enumerate}
+\item try-except block
+\end{enumerate}
+\begin{verbatim}
+try:
+   # <statements>
+   # <statements>
+   # <statements>
+except :
+   # excuted when try block raise any kind of exceptions
+   # <statements>
+#executed when try else block finishes of executions
+#<statements>
+#<statements>
+#<statements>
+\end{verbatim}
+
+\begin{enumerate}
+\item use seperate clauses to deal with particular type of exceptions
+\begin{verbatim}
+try:
+    # <statements>
+    # <statements>
+    print('1'/0)
+except ValueError :
+    # executed if try block has Value error
+    # <statements>
+    # <statements>
+    print("try block has value error")
+except ZeroDivisionError :
+    # executed if try block has zeroDivisionError
+    # <statements>
+    # <statements>
+    # <statements>
+    print("cannot devide by zero")
+except :
+    # executed if try block has error other
+    # than ValueErro and ZeroDivisionError
+    # <statements>
+    # <statements>
+   print("all other kind of error ")
+# executed when try-except block has finished executing
+#<statements>
+#<statements>
+print("outside try except block")
+\end{verbatim}
+\end{enumerate}
+\end{document}

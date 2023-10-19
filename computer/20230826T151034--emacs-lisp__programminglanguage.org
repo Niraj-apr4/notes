@@ -1,7 +1,0 @@
-#+title:      Emacs lisp
-#+date:       [2023-08-26 Sat 00:58]
-#+filetags:   :programminglanguage:
-#+identifier: 20230826T005802
-
-* TODO Tutorial from Github 
-github repository link [[https://github.com/chrisdone/elisp-guide][elisp-guide]]

@@ -1,5 +1,0 @@
-#+title:      Note-taking-setup
-#+date:       [2023-07-26 Wed 01:24]
-#+filetags:   :setup:
-#+identifier: 20230726T012426
-
